@@ -73,7 +73,48 @@ greet();         // Output: Hello, Ahmad!
 greet("Sharjeel");   // Output: Hello, Sharjeel!
 
 
-6. **Anonymous Functions**
+***Types OF Functions in JavaScript***
+1. **Built-in Functions**
+-  JavaScript provides many built-in functions to perform common tasks. Examples include:
+-  console.log(): Prints output to the console.
+-  console.log("Hello, World!"); // Output: Hello, World!
+-  Math.max(): Finds the maximum value from a list of numbers.
+-  console.log(Math.max(10, 20, 30)); // Output: 30
+-  parseInt(): Converts a string into an integer.
+console.log(parseInt("42")); // Output: 42
+
+2. **User-Defined Functions**
+Functions written by developers to perform specific tasks.
+**Example 1:** Simple Addition
+function addNumbers(a, b) {
+    return a + b;
+}
+console.log(addNumbers(3, 5)); // Output: 8
+
+**Example 2:** Check if a Number is Even
+function isEven(number) {
+    return number % 2 === 0;
+}
+console.log(isEven(4)); // Output: true
+console.log(isEven(7)); // Output: false
+
+User-defined functions provide flexibility and reusability for specific tasks, complementing the built-in functionality of JavaScript.
+
+
+6. **Function Expression**
+A function assigned to a variable. These are not hoisted, so they must be defined before use.
+
+**Example:**
+
+const multiply = function (a, b) {
+    return a * b;
+};
+
+console.log(multiply(2, 3)); // Output: 6
+
+
+
+7. **Anonymous Functions**
 An anonymous function is a function without a name, typically assigned to a variable or used as a callback.
 
 **Example:**
