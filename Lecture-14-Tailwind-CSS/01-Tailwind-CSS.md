@@ -229,3 +229,14 @@ export default function App() {
 3. **Flexbox layout** for services or skills.
 4. **Grid layout** for portfolio items.
 5. **Footer** with social media links and contact information.
+
+
+## VS Code (Visual Studio Code)
+- Tailwind CSS IntelliSense: This extension provides IntelliSense for Tailwind CSS classes, autocompletion, and more.
+
+Steps to install:
+
+## Open VS Code.
+- Go to the Extensions sidebar (Ctrl+Shift+X or click on the Extensions icon).
+- Search for "Tailwind CSS IntelliSense".
+- Click on Install.
