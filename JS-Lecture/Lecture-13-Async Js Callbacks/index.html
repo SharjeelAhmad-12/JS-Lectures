@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Callbacks</title>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Callbacks: An In-Depth Explanation</h1>
+        <p>Learn about callbacks in JavaScript and how they are used to handle asynchronous operations.</p>
+    </header>
+    <section id="asynchronous-javascript">
+        <h2>1. What is Asynchronous JavaScript?</h2>
+        <p>Asynchronous programming allows operations to run without blocking the rest of the program. It's crucial for tasks like fetching data, waiting for user input, or handling timed events.</p>
+        <button>See Asynchronous Example</button>
+        <div class="output"></div>
+    </section>
+    <section id="callbacks">
+        <h2>2. Callbacks in JavaScript</h2>
+        <p>A callback is a function passed into another function to be executed after a specific task is completed.</p>
+        <button>Run Callback Example</button>
+        <div class="output"></div>
+    </section>
+    <section id="real-life-example">
+        <h2>5. Real-Life Example of Callbacks</h2>
+        <p>Let’s simulate fetching movie data using a callback.</p>
+        <button>Fetch Movie Data</button>
+        <div class="output"></div>
+    </section>
+    <section id="callback-hell">
+        <h2>6. Callback Hell</h2>
+        <p>Nested callbacks can make the code difficult to read, known as "callback hell."</p>
+        <pre>
+firstTask(function() {
+    secondTask(function() {
+        thirdTask(function() {
+            fourthTask(function() {
+                // And so on...
+            });
+        });
+    });
+});
+        </pre>
+    </section>
+    <footer>
+        <p>Understanding callbacks is essential for handling asynchronous JavaScript effectively.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
