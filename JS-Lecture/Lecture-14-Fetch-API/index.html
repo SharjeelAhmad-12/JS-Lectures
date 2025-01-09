@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styling for the card container */
+        #cardContainer {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        /* Styling for individual cards */
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #F9F9F9;
+            width: 550px;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        /* Styling for the product image */
+        .card img {
+            width: 150px;
+            height: 150px;
+        }
+        /* Styling for the product title */
+        .card h4 {
+            width: 150px;
+        }
+        /* Styling for the product description */
+        .card p.description {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container where cards will be dynamically added -->
+    <div id="cardContainer"></div>
+    <!-- JavaScript file for fetching and displaying data -->
+    <script src="index.js"></script>
+</body>
+</html>
